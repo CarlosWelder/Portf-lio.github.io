@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+   
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Portfólio</a>
+        <div class="menu-icon" id="menu-icon">
+            <i class='bx bx-menu'></i>
+        </div>
+        <div class="nav-menu" id="nav-menu">
+            <a href="index.html">Sobre</a>
+            <a href="academica.html">Formação acadêmica</a>
+            <a href="portfolio.html">Portfólio</a>
+            <a href="contato.html">Contato</a>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Olá, eu sou</h3>
+            <h2><span>Carlos Welder</span></h2>
+            <h3>Desenvolvedor<span> Back-end</span></h3>
+            <p>
+                Sou um jovem profissional de 19 anos em busca de estágio na área de TI, com foco em backend e especialização em tecnologias como Java, Python e MySQL. Tenho conhecimentos em programação, desenvolvimento mobile, manutenção de sistemas e banco de dados. Além disso, estou aprendendo e praticando ferramentas e tecnologias essenciais para a área de TI, como C#, HTML, CSS, PHP, modelagem de dados, programação orientada a objetos e Sistemas Gerenciadores de Banco de Dados (SGBD).
+            </p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/in/welder-silva-800bb5279/" class="btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2024 by Welder, All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        const menuIcon = document.getElementById('menu-icon');
+        const navMenu = document.getElementById('nav-menu');
+
+        menuIcon.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
